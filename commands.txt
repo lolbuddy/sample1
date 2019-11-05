@@ -1,0 +1,48 @@
+ 1  sudo apt update
+    2  sudo apt install apache2
+    3  vi /var/www/html
+    4  vi /var/www/html/index.html
+    5  sudo apt update
+    6  sudo apt install mysql-client
+    7  mysql -h accounts.ciaa3ttaa8kf.us-east-2.rds.amazonaws.com -u rahulrds -p
+    8  ls -l
+    9  wget http://mirrors.estointernet.in/apache/tomcat/tomcat-9/v9.0.27/src/apache-tomcat-9.0.27-src.tar.gz
+   10  ls -l
+   11  tar -xzf apache-tomcat-9.0.27-src.tar.gz
+   12  ls -l
+   13  ls
+   14  mv apache-tomcat-9.0.27-src /opt
+   15  cd /opt/apache-tomcat-9.0.27-src/
+   16  ls
+   17  cp vprofile-v1.war /opt/apache-tomcat-8.5.47/webapps/
+   18  cd //opt/apache-tomcat-8.5.47/bin
+   19  ls
+   20  bash shutdown.sh
+   21  bash  startup.sh
+   22  http://18.218.184.2:8080/vprofile-vi
+   23  mysql -h accounts.ciaa3ttaa8kf.us-east-2.rds.amazonaws.com -u accounts -p
+   24  mysql -h accounts.ciaa3ttaa8kf.us-east-2.rds.amazonaws.com -u rahulrds -p
+   25  cd /opt/apache-tomcat-8.5.47/webapps/
+   26  ls
+   27  ls -l
+   28  cd vprofile-v1
+   29  cd web-inf
+   30  ls -l
+   31  META-INF
+   32  cd META-INF/
+   33  cd ..
+   34  cd WEB-INF/
+   35  cd classes/
+   36  ls -l
+   37  vi application.properties/
+   38  ls -l
+   39  vi application.properties
+   40  mysql -h accounts.ciaa3ttaa8kf.us-east-2.rds.amazonaws.com -u rahulrds -p accounts < accountsdb.sql
+   41  mysql -h accounts.ciaa3ttaa8kf.us-east-2.rds.amazonaws.com -u rahulrds -p accounts < accounts.sql
+   42  mysql -h accounts.ciaa3ttaa8kf.us-east-2.rds.amazonaws.com -u rahulrds -p accounts < accountsdb.sql
+   43  ls -l
+   44  mysql -h accounts.ciaa3ttaa8kf.us-east-2.rds.amazonaws.com -u rahulrds -p
+   45  cd /opt/apache-tomcat-8.5.47/bin
+   46  ls -l
+   47  bash shutdown.sh
+   48  bash startup.sh

@@ -1,0 +1,94 @@
+ 1  sudo apt update
+    2  sudo apt install apache2
+    3  vi /var/www/html
+    4  vi /var/www/html/index.html
+    5  sudo apt update
+    6  sudo apt install mysql-client
+    7  mysql -h accounts.ciaa3ttaa8kf.us-east-2.rds.amazonaws.com -u rahulrds -p
+    8  ls -l
+    9  wget http://mirrors.estointernet.in/apache/tomcat/tomcat-9/v9.0.27/src/apache-tomcat-9.0.27-src.tar.gz
+   10  ls -l
+   11  tar -xzf apache-tomcat-9.0.27-src.tar.gz
+   12  ls -l
+   13  ls
+   14  mv apache-tomcat-9.0.27-src /opt
+   15  cd /opt/apache-tomcat-9.0.27-src/
+   16  ls
+   17  cp vprofile-v1.war /opt/apache-tomcat-8.5.47/webapps/
+   18  cd //opt/apache-tomcat-8.5.47/bin
+   19  ls
+   20  bash shutdown.sh
+   21  bash  startup.sh
+   22  http://18.218.184.2:8080/vprofile-vi
+   23  mysql -h accounts.ciaa3ttaa8kf.us-east-2.rds.amazonaws.com -u accounts -p
+   24  mysql -h accounts.ciaa3ttaa8kf.us-east-2.rds.amazonaws.com -u rahulrds -p
+   25  cd /opt/apache-tomcat-8.5.47/webapps/
+   26  ls
+   27  ls -l
+   28  cd vprofile-v1
+   29  cd web-inf
+   30  ls -l
+   31  META-INF
+   32  cd META-INF/
+   33  cd ..
+   34  cd WEB-INF/
+   35  cd classes/
+   36  ls -l
+   37  vi application.properties/
+   38  ls -l
+   39  vi application.properties
+   40  mysql -h accounts.ciaa3ttaa8kf.us-east-2.rds.amazonaws.com -u rahulrds -p accounts < accountsdb.sql
+   41  mysql -h accounts.ciaa3ttaa8kf.us-east-2.rds.amazonaws.com -u rahulrds -p accounts < accounts.sql
+   42  mysql -h accounts.ciaa3ttaa8kf.us-east-2.rds.amazonaws.com -u rahulrds -p accounts < accountsdb.sql
+   43  ls -l
+   44  mysql -h accounts.ciaa3ttaa8kf.us-east-2.rds.amazonaws.com -u rahulrds -p
+   45  cd /opt/apache-tomcat-8.5.47/bin
+   46  ls -l
+   47  bash shutdown.sh
+   48  bash startup.sh
+   49  history
+   50  cd /opt
+   51  ls
+   52  tar -xvzf apache-tomcat-8.5.47.tar.gz
+   53  cd bin
+   54  cd apache-tomcat-8.5.47/bin
+   55  ls
+   56  ./startup.sh
+   57  cd /opt
+   58  cd /opt apache-tomcat-8.5.47
+   59  cp vprofile-v1.war /opt/apache-tomcat-8.5.47/webapps
+   60  exit
+   61  ls
+   62  cp vprofile-v1.war /opt/apache-tomcat-8.5.47/webapps
+   63  ls -l
+   64  cp vprofile-v1.war /opt/apache-tomcat-8.5.47/webapps
+   65  cd //opt/apache-tomcat-8.5.47/bin
+   66  ls
+   67  bash shutdown.sh
+   68  bash startup.sh
+   69  vprofile-v1
+   70  cd ..
+   71  cd webapps
+   72  ls -l
+   73  cd ROOT
+   74  ls -l
+   75  cd ..
+   76  mv ROOT.or
+   77  mv ROOT.back
+   78  ls -l
+   79  cd ROOT
+   80  ls -l
+   81  mv ROOT ROOT.back
+   82  cd ..
+   83  ls -l
+   84  mv ROOT ROOT.backup
+   85  mv vprofile-v1.war ROOT.war
+   86  cd ..
+   87  ls -l
+   88  cd bin
+   89  ls -l
+   90  bash shutdown.sh
+   91  bash startup.sh
+   92  cd ../../..
+   93  history
+root@ip-172-31-45-191://#
